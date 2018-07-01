@@ -33,35 +33,4 @@
             <version>3.2.0</version>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>136</id>
-            <name>ecss3.5</name>
-            <url>http://183.237.4.10:8081/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>nexus_public</id>
-            <url>http://183.237.4.10:8081/nexus/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus_public</id>
-            <url>http://183.237.4.10:8081/nexus/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
 </project>

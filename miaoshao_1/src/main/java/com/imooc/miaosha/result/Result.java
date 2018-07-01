@@ -27,4 +27,15 @@ public class Result {
         this.message = message;
         return this;
     }
+
+    public Result success() {
+        return success(null);
+    }
+
+    public Result success(Object data) {
+        this.code = CodeMsg.SUCCESS.getCode();
+        this.message = CodeMsg.SUCCESS.getMessage();
+        this.data = data;
+        return this;
+    }
 }

@@ -1,10 +1,13 @@
 package com.imooc.miaosha.result;
 
+import lombok.Data;
+
 /**
  * @description:
  * @author:tz
  * @date:Created in 下午2:01 2018/6/28
  */
+@Data
 public class Result {
 
     private String code;
@@ -14,7 +17,7 @@ public class Result {
     private Object data;
 
     public Result setData(Object data) {
-        this .data = data;
+        this.data = data;
         return this;
     }
 
